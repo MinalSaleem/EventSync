@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://eventsync-h1e7.onrender.com/api",
 });
 
 // Automatically include the token in the request headers if it is stored in localStorage.
